@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutgers Organization Of Cloud Computing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <section class="sub-sub-sub-header">
+            <nav>
+                <a href="index.html"><img src="Images/logo.png" alt="Logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i> 
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT/FOLLOW</a></li>    
+                        <li><a href="contact.html">CONTACT/INFO</a></li>
+                        <li><a href="join.html">JOIN</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+                <h1>Ready To Join Us?</h1>
+
+<section class="join-us">
+    <h2>We're so glad you're ready to join! Here's the steps needed for you to become an official member of ROCC!</h2>
+    <br>
+    <div class="join-col">
+        <div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqEp1bOgx1cz1MUDyM8MoMH0jLRRZDEZ9UZTzkFo-_YihmxQ/viewform"><i class="fa fa-list-alt"></i></a>
+            <span>
+                <h2>1. Fill out the google form from the icon</h2>
+            </span>
+        </div>
+        <div>
+            <a href="https://rutgers.campuslabs.com/engage/organization/rocc>"<i class="fa fa-search"></i></a>
+            <span>
+                <h2>2. Sign in to getInvolved and click "Join Club"</h2>
+            </span>
+        </div>
+        <div>
+            <span>
+                <h2>3. Join the GroupMe or Discord to interact with other members and to stay up-to-date with club events!</h2>
+                <br>
+                <a href="https://discord.com/invite/DfqzPAHj28" class="icon">Discord</a>
+                <a href="https://web.groupme.com/join_group/91525163/mhdQsE9i"class="icon">GroupMe</a>
+            </span>
+    </div>
+</section>
+
+<!-----JavaScript To Toggle Menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
