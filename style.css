@@ -87,22 +87,19 @@ nav .fa{
     width: 100%;
     text-align: center;
     padding: 30px 0;
-}
-.footer h2{
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 600;
+    margin-top: 50px;
 }
 .icons .fa{
     color: #FF0000;
-    margin: 0 13px;
+    margin: 0 50px;
     cursor: pointer;
     padding: 18px 0;
+    text-align: center;
 }
 .icons .icon{
+    text-align: center;
     color: #FF0000;
 }
-
 
 /* About */
 .sub-header{
@@ -252,6 +249,32 @@ nav .fa{
 }
 .icon{
     color: #FF0000;
+}
+
+/*Links Page*/
+.sub-sub-sub-sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/banner5.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.sub-sub-sub-sub-header h1{
+    margin-top: 5px;
+    font-size: 50px;
+}
+.sub-sub-sub-sub-header h2{
+    margin-top: 150px;
+    color: #000000;
+    padding-top: 0;
+    margin-bottom: 50px;
+}
+.sub-sub-sub-sub-header h3{
+    margin-top: 50px;
+    color:#000000;
+    padding-top: 0;
 }
 
 
