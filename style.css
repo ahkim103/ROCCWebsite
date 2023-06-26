@@ -320,3 +320,42 @@ nav .fa{
         margin-bottom: 30px;
     }
 }
+
+@media(min-width: 1000px){
+    .sub-header{
+        height: 40vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/banner2.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color:#fff;
+    }
+    .sub-sub-header{
+        height: 40vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/banner3.jpeg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color:#fff;
+    }
+    .sub-sub-sub-header{
+        height: 40vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/banner4.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color:#fff;
+    }
+    .sub-sub-sub-sub-header{
+        height: 40vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/banner5.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color:#fff;
+    }
+}
