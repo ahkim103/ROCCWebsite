@@ -321,7 +321,7 @@ nav .fa{
     }
 }
 
-@media(min-width: 1000px) and (max-width: 700px){
+@media(min-width: 1000px){
     .sub-header{
         height: 40vh;
         width: 100%;
